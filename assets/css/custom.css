@@ -1,0 +1,59 @@
+#myModal {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.55);
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+  opacity: 0;
+  transition: opacity .25s ease;
+}
+#myModal.open {
+  display: flex;
+  opacity: 1;
+}
+#myModal .modal-content {
+  background: #fff;
+  padding: 1.25rem;
+  border-radius: 8px;
+  max-width: 600px;
+  width: 90%;
+}
+
+.animate-on-scroll {
+  opacity: 0;
+  transform: translateY(24px);
+  transition: opacity .6s ease, transform .6s ease;
+}
+.animate-on-scroll.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+#postsContainer .post-card {
+  border: 1px solid rgba(0,0,0,0.06);
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 6px;
+  background: #fff;
+}
+#postsContainer .post-title {
+  margin: 0 0 .5rem 0;
+}
+#postsContainer .loader, #postsContainer .loader-small {
+  padding: .75rem;
+  font-style: italic;
+}
+.comments {
+  margin-top: .5rem;
+  padding-left: .5rem;
+}
+.comments.open { display:block; }
+.comments { display:none; }
+
+header.scrolled {
+  background: rgba(255,255,255,0.9);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  transition: background .2s, box-shadow .2s;
+}

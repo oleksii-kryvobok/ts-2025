@@ -10,6 +10,7 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/custom.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
@@ -326,7 +327,23 @@
 
 						</div>
 					</section>
-
+					<section id="posts" class="wrapper">
+						<div class="inner">
+							<h2>Останні пости</h2>
+							<div id="postsContainer"></div>
+						</div>
+					</section>
+					<div id="myModal" class="modal" aria-hidden="true">
+						<div class="modal-content">
+							<button id="closeModal" class="close">Close</button>
+							<div class="modal-body">
+								<h3>Modal window</h3>
+								<p>Lorem Lorem Ipsum Ipsum</p>
+							</div>
+						</div>
+					</div>
+					<!-- <button id="openModal" class="button">Open modal</button> -->
+					<a href="#" id="openModal" class="button">Open modal</a>
 				<!-- Footer -->
 					<footer class="wrapper style1 align-center">
 						<div class="inner">
@@ -340,7 +357,7 @@
 							<p>&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
 						</div>
 					</footer>
-
+					
 			</div>
 
 		<!-- Scripts -->
@@ -351,6 +368,6 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-
+			<script type="module" src="assets/js/app.js"></script>
 	</body>
 </html>
