@@ -1,0 +1,24 @@
+{
+  "name": "ts-2025",
+  "version": "1.0.0",
+  "description": "репозиторій для завдань з предмета TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oleksii-kryvobok/ts-2025.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/oleksii-kryvobok/ts-2025/issues"
+  },
+  "homepage": "https://github.com/oleksii-kryvobok/ts-2025#readme",
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  }
+}
